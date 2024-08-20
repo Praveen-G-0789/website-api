@@ -1,0 +1,383 @@
+{
+    "template": [
+        {
+            "id": "hero_section",
+            "elType": "section",
+            "settings": {
+                "layout": "flex",
+                "content_width": "full_width",
+                "height": {
+                    "unit": "vh",
+                    "size": 75
+                },
+                "background_background": "classic",
+                "background_image": {
+                    "url": "https://yourimageurl.com/hero-background.jpg"
+                },
+                "background_position": "center center",
+                "background_repeat": "no-repeat",
+                "background_size": "cover",
+                "align": "center",
+                "justify_content": "center"
+            },
+            "elements": [
+                {
+                    "id": "hero_heading",
+                    "elType": "widget",
+                    "settings": {
+                        "title": "Welcome to Our Website",
+                        "align": "center"
+                    },
+                    "widgetType": "heading"
+                },
+                {
+                    "id": "hero_content",
+                    "elType": "widget",
+                    "settings": {
+                        "editor": "This is the hero content.",
+                        "align": "center"
+                    },
+                    "widgetType": "text-editor"
+                },
+                {
+                    "id": "hero_button",
+                    "elType": "widget",
+                    "settings": {
+                        "text": "Get Started",
+                        "link": {
+                            "url": "#"
+                        },
+                        "align": "center"
+                    },
+                    "widgetType": "button"
+                }
+            ]
+        },
+        {
+            "id": "section_below_hero",
+            "elType": "section",
+            "settings": {
+                "layout": "flex",
+                "content_width": "boxed",
+                "direction": "row",
+                "justify_content": "center",
+                "align_items": "center"
+            },
+            "elements": [
+                {
+                    "id": "left_container",
+                    "elType": "column",
+                    "settings": {},
+                    "elements": [
+                        {
+                            "id": "left_heading",
+                            "elType": "widget",
+                            "settings": {
+                                "title": "Our Services",
+                                "align": "left"
+                            },
+                            "widgetType": "heading"
+                        },
+                        {
+                            "id": "left_content",
+                            "elType": "widget",
+                            "settings": {
+                                "editor": "We offer a variety of services to help you succeed.",
+                                "align": "left"
+                            },
+                            "widgetType": "text-editor"
+                        },
+                        {
+                            "id": "left_button",
+                            "elType": "widget",
+                            "settings": {
+                                "text": "Learn More",
+                                "link": {
+                                    "url": "#"
+                                },
+                                "align": "left"
+                            },
+                            "widgetType": "button"
+                        }
+                    ]
+                },
+                {
+                    "id": "right_container",
+                    "elType": "column",
+                    "settings": {},
+                    "elements": [
+                        {
+                            "id": "right_image",
+                            "elType": "widget",
+                            "settings": {
+                                "image": {
+                                    "url": "https://yourimageurl.com/right-image.jpg"
+                                },
+                                "align": "center"
+                            },
+                            "widgetType": "image"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "section_below_services",
+            "elType": "section",
+            "settings": {
+                "layout": "flex",
+                "content_width": "boxed",
+                "direction": "row",
+                "justify_content": "center",
+                "align_items": "center"
+            },
+            "elements": [
+                {
+                    "id": "left_container",
+                    "elType": "column",
+                    "settings": {},
+                    "elements": [
+                        {
+                            "id": "left_image",
+                            "elType": "widget",
+                            "settings": {
+                                "image": {
+                                    "url": "https://yourimageurl.com/left-image.jpg"
+                                },
+                                "align": "center"
+                            },
+                            "widgetType": "image"
+                        }
+                    ]
+                },
+                {
+                    "id": "right_container",
+                    "elType": "column",
+                    "settings": {},
+                    "elements": [
+                        {
+                            "id": "right_heading",
+                            "elType": "widget",
+                            "settings": {
+                                "title": "About Us",
+                                "align": "right"
+                            },
+                            "widgetType": "heading"
+                        },
+                        {
+                            "id": "right_content",
+                            "elType": "widget",
+                            "settings": {
+                                "editor": "Learn more about our team and values.",
+                                "align": "right"
+                            },
+                            "widgetType": "text-editor"
+                        },
+                        {
+                            "id": "right_button",
+                            "elType": "widget",
+                            "settings": {
+                                "text": "Read More",
+                                "link": {
+                                    "url": "#"
+                                },
+                                "align": "right"
+                            },
+                            "widgetType": "button"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "three_column_section",
+            "elType": "section",
+            "settings": {
+                "layout": "flex",
+                "content_width": "boxed",
+                "direction": "row",
+                "justify_content": "center",
+                "align_items": "center"
+            },
+            "elements": [
+                {
+                    "id": "column_1",
+                    "elType": "column",
+                    "settings": {},
+                    "elements": [
+                        {
+                            "id": "column_1_image",
+                            "elType": "widget",
+                            "settings": {
+                                "image": {
+                                    "url": "https://yourimageurl.com/column1-image.jpg"
+                                },
+                                "align": "center"
+                            },
+                            "widgetType": "image"
+                        },
+                        {
+                            "id": "column_1_heading",
+                            "elType": "widget",
+                            "settings": {
+                                "title": "Feature 1",
+                                "align": "center"
+                            },
+                            "widgetType": "heading"
+                        },
+                        {
+                            "id": "column_1_content",
+                            "elType": "widget",
+                            "settings": {
+                                "editor": "Description of feature 1.",
+                                "align": "center"
+                            },
+                            "widgetType": "text-editor"
+                        },
+                        {
+                            "id": "column_1_button",
+                            "elType": "widget",
+                            "settings": {
+                                "text": "Discover More",
+                                "link": {
+                                    "url": "#"
+                                },
+                                "align": "center"
+                            },
+                            "widgetType": "button"
+                        }
+                    ]
+                },
+                {
+                    "id": "column_2",
+                    "elType": "column",
+                    "settings": {},
+                    "elements": [
+                        {
+                            "id": "column_2_image",
+                            "elType": "widget",
+                            "settings": {
+                                "image": {
+                                    "url": "https://yourimageurl.com/column2-image.jpg"
+                                },
+                                "align": "center"
+                            },
+                            "widgetType": "image"
+                        },
+                        {
+                            "id": "column_2_heading",
+                            "elType": "widget",
+                            "settings": {
+                                "title": "Feature 2",
+                                "align": "center"
+                            },
+                            "widgetType": "heading"
+                        },
+                        {
+                            "id": "column_2_content",
+                            "elType": "widget",
+                            "settings": {
+                                "editor": "Description of feature 2.",
+                                "align": "center"
+                            },
+                            "widgetType": "text-editor"
+                        },
+                        {
+                            "id": "column_2_button",
+                            "elType": "widget",
+                            "settings": {
+                                "text": "Discover More",
+                                "link": {
+                                    "url": "#"
+                                },
+                                "align": "center"
+                            },
+                            "widgetType": "button"
+                        }
+                    ]
+                },
+                {
+                    "id": "column_3",
+                    "elType": "column",
+                    "settings": {},
+                    "elements": [
+                        {
+                            "id": "column_3_image",
+                            "elType": "widget",
+                            "settings": {
+                                "image": {
+                                    "url": "https://yourimageurl.com/column3-image.jpg"
+                                },
+                                "align": "center"
+                            },
+                            "widgetType": "image"
+                        },
+                        {
+                            "id": "column_3_heading",
+                            "elType": "widget",
+                            "settings": {
+                                "title": "Feature 3",
+                                "align": "center"
+                            },
+                            "widgetType": "heading"
+                        },
+                        {
+                            "id": "column_3_content",
+                            "elType": "widget",
+                            "settings": {
+                                "editor": "Description of feature 3.",
+                                "align": "center"
+                            },
+                            "widgetType": "text-editor"
+                        },
+                        {
+                            "id": "column_3_button",
+                            "elType": "widget",
+                            "settings": {
+                                "text": "Discover More",
+                                "link": {
+                                    "url": "#"
+                                },
+                                "align": "center"
+                            },
+                            "widgetType": "button"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "final_section",
+            "elType": "section",
+            "settings": {
+                "layout": "flex",
+                "content_width": "full_width",
+                "justify_content": "center",
+                "align_items": "center"
+            },
+            "elements": [
+                {
+                    "id": "final_heading",
+                    "elType": "widget",
+                    "settings": {
+                        "title": "Get in Touch with Us",
+                        "align": "center"
+                    },
+                    "widgetType": "heading"
+                },
+                {
+                    "id": "final_button",
+                    "elType": "widget",
+                    "settings": {
+                        "text": "Contact Us",
+                        "link": {
+                            "url": "#"
+                        },
+                        "align": "center"
+                    },
+                    "widgetType": "button"
+                }
+            ]
+        }
+    ]
+}
