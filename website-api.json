@@ -11,7 +11,7 @@
         "justify_content": "center",
         "align_items": "center",
         "background": {
-          "image": "url_to_background_image",
+          "image": "https://wordpressrd.thestagingurl.com/wp-content/uploads/2024/05/verne-ho-0LAJfSNa-xQ-unsplash-scaled.jpg",
           "position": "center center",
           "repeat": "no-repeat",
           "size": "cover"
@@ -88,7 +88,7 @@
             {
               "type": "image",
               "settings": {
-                "url": "url_to_image"
+                "url": "https://wordpressrd.thestagingurl.com/wp-content/uploads/2024/05/all-bong-L2oedF1AsH8-unsplash-scaled.jpg"
               }
             }
           ]
@@ -115,7 +115,7 @@
             {
               "type": "image",
               "settings": {
-                "url": "url_to_image"
+                "url": "https://wordpressrd.thestagingurl.com/wp-content/uploads/2024/05/anthony-esau-N2zk9yXjmLA-unsplash-scaled.jpg"
               }
             }
           ]
@@ -170,7 +170,7 @@
             {
               "type": "image",
               "settings": {
-                "url": "url_to_image_1"
+                "url": "https://wordpressrd.thestagingurl.com/wp-content/uploads/2024/05/daniel-chen-cNaEqXSsZ0k-unsplash-scaled.jpg"
               }
             },
             {
@@ -204,7 +204,7 @@
             {
               "type": "image",
               "settings": {
-                "url": "url_to_image_2"
+                "url": "https://wordpressrd.thestagingurl.com/wp-content/uploads/2024/05/sean-pollock-PhYq704ffdA-unsplash-scaled.jpg"
               }
             },
             {
@@ -238,7 +238,7 @@
             {
               "type": "image",
               "settings": {
-                "url": "url_to_image_3"
+                "url": "https://wordpressrd.thestagingurl.com/wp-content/uploads/2024/05/owen-lystrup-boLgiM0qwkg-unsplash-scaled.jpg"
               }
             },
             {
@@ -277,7 +277,7 @@
         "align_items": "center",
         "background": {
           "color": "#f4f4f4",
-          "image": "url_to_background_image"
+          "image": "https://wordpressrd.thestagingurl.com/wp-content/uploads/2024/05/beautiful-lake.webp"
         }
       },
       "elements": [
