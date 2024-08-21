@@ -1,658 +1,618 @@
 {
-  "templates": {
-    "home_template": [
-      {
-        "id": "hero_section",
-        "type": "container",
-        "settings": {
-          "layout": "flexbox",
-          "content_width": "full_width",
-          "min_height": "50vh",
-          "direction": "column",
-          "justify_content": "center",
-          "align_items": "center",
-          "background": {
-            "image": "https://wordpressrd.thestagingurl.com/wp-content/uploads/2024/05/hero-background.jpg",
-            "position": "center center",
-            "repeat": "no-repeat",
-            "size": "cover"
-          }
-        },
-        "elements": [
-          {
-            "type": "heading",
-            "settings": {
-              "text": "Welcome to Our Website",
-              "tag": "h1"
+  "pages": [
+    {
+      "name": "Home",
+      "template": "home_template",
+      "elements": [
+        {
+          "id": "hero_section",
+          "type": "container",
+          "settings": {
+            "layout": "flexbox",
+            "content_width": "full_width",
+            "min_height": "50vh",
+            "direction": "column",
+            "justify_content": "center",
+            "align_items": "center",
+            "background": {
+              "image": "https://wordpressrd.thestagingurl.com/wp-content/uploads/2024/05/hero-background.jpg",
+              "position": "center center",
+              "repeat": "no-repeat",
+              "size": "cover"
             }
           },
-          {
-            "type": "text",
-            "settings": {
-              "content": "We offer the best services for your needs."
+          "elements": [
+            {
+              "type": "heading",
+              "settings": {
+                "text": "Welcome to Our Website",
+                "tag": "h1"
+              }
+            },
+            {
+              "type": "text",
+              "settings": {
+                "content": "We offer the best services for your needs."
+              }
+            },
+            {
+              "type": "button",
+              "settings": {
+                "text": "Learn More",
+                "url": "#"
+              }
+            }
+          ]
+        },
+        {
+          "id": "first_section_below_hero",
+          "type": "container",
+          "settings": {
+            "layout": "flexbox",
+            "content_width": "boxed",
+            "direction": "row",
+            "justify_content": "center",
+            "align_items": "center"
+          },
+          "elements": [
+            {
+              "type": "container",
+              "settings": {
+                "direction": "column"
+              },
+              "elements": [
+                {
+                  "type": "heading",
+                  "settings": {
+                    "text": "About Us",
+                    "tag": "h2"
+                  }
+                },
+                {
+                  "type": "text",
+                  "settings": {
+                    "content": "Learn more about our company."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "settings": {
+                "direction": "column"
+              },
+              "elements": [
+                {
+                  "type": "image",
+                  "settings": {
+                    "url": "https://wordpressrd.thestagingurl.com/wp-content/uploads/2024/05/about-image.jpg"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "second_section_below_hero",
+          "type": "container",
+          "settings": {
+            "layout": "flexbox",
+            "content_width": "boxed",
+            "direction": "row",
+            "justify_content": "center",
+            "align_items": "center"
+          },
+          "elements": [
+            {
+              "type": "container",
+              "settings": {
+                "direction": "column"
+              },
+              "elements": [
+                {
+                  "type": "image",
+                  "settings": {
+                    "url": "https://wordpressrd.thestagingurl.com/wp-content/uploads/2024/05/feature-image.jpg"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "settings": {
+                "direction": "column"
+              },
+              "elements": [
+                {
+                  "type": "heading",
+                  "settings": {
+                    "text": "Our Features",
+                    "tag": "h2"
+                  }
+                },
+                {
+                  "type": "text",
+                  "settings": {
+                    "content": "Explore the unique features we offer."
+                  }
+                },
+                {
+                  "type": "button",
+                  "settings": {
+                    "text": "Discover More",
+                    "url": "#"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "third_section_below_hero",
+          "type": "container",
+          "settings": {
+            "layout": "flexbox",
+            "content_width": "boxed",
+            "direction": "row",
+            "justify_content": "center",
+            "align_items": "center"
+          },
+          "elements": [
+            {
+              "type": "container",
+              "settings": {
+                "direction": "column"
+              },
+              "elements": [
+                {
+                  "type": "heading",
+                  "settings": {
+                    "text": "Our Services",
+                    "tag": "h2"
+                  }
+                },
+                {
+                  "type": "text",
+                  "settings": {
+                    "content": "Check out the services we offer."
+                  }
+                },
+                {
+                  "type": "button",
+                  "settings": {
+                    "text": "Our Services",
+                    "url": "#"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "settings": {
+                "direction": "column"
+              },
+              "elements": [
+                {
+                  "type": "image",
+                  "settings": {
+                    "url": "https://wordpressrd.thestagingurl.com/wp-content/uploads/2024/05/services-image.jpg"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "About",
+      "template": "about_template",
+      "elements": [
+        {
+          "id": "hero_section",
+          "type": "container",
+          "settings": {
+            "layout": "flexbox",
+            "content_width": "full_width",
+            "min_height": "50vh",
+            "direction": "column",
+            "justify_content": "center",
+            "align_items": "center",
+            "background": {
+              "image": "https://wordpressrd.thestagingurl.com/wp-content/uploads/2024/05/hero-background.jpg",
+              "position": "center center",
+              "repeat": "no-repeat",
+              "size": "cover"
             }
           },
-          {
-            "type": "button",
-            "settings": {
-              "text": "Learn More",
-              "url": "#"
+          "elements": [
+            {
+              "type": "heading",
+              "settings": {
+                "text": "About Our Company",
+                "tag": "h1"
+              }
+            },
+            {
+              "type": "text",
+              "settings": {
+                "content": "Discover who we are and what we do."
+              }
+            },
+            {
+              "type": "button",
+              "settings": {
+                "text": "Learn More",
+                "url": "#"
+              }
             }
-          }
-        ]
-      },
-      {
-        "id": "first_section_below_hero",
-        "type": "container",
-        "settings": {
-          "layout": "flexbox",
-          "content_width": "boxed",
-          "direction": "row",
-          "justify_content": "center",
-          "align_items": "center"
+          ]
         },
-        "elements": [
-          {
-            "type": "container",
-            "settings": {
-              "direction": "column"
-            },
-            "elements": [
-              {
-                "type": "heading",
-                "settings": {
-                  "text": "About Us",
-                  "tag": "h2"
-                }
-              },
-              {
-                "type": "text",
-                "settings": {
-                  "content": "Learn more about our company."
-                }
-              }
-            ]
+        {
+          "id": "first_section_below_hero",
+          "type": "container",
+          "settings": {
+            "layout": "flexbox",
+            "content_width": "boxed",
+            "direction": "row",
+            "justify_content": "center",
+            "align_items": "center"
           },
-          {
-            "type": "container",
-            "settings": {
-              "direction": "column"
-            },
-            "elements": [
-              {
-                "type": "image",
-                "settings": {
-                  "url": "https://wordpressrd.thestagingurl.com/wp-content/uploads/2024/05/about-image.jpg"
+          "elements": [
+            {
+              "type": "container",
+              "settings": {
+                "direction": "column"
+              },
+              "elements": [
+                {
+                  "type": "heading",
+                  "settings": {
+                    "text": "Our Mission",
+                    "tag": "h2"
+                  }
+                },
+                {
+                  "type": "text",
+                  "settings": {
+                    "content": "To provide the best service to our customers."
+                  }
                 }
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "second_section_below_hero",
-        "type": "container",
-        "settings": {
-          "layout": "flexbox",
-          "content_width": "boxed",
-          "direction": "row",
-          "justify_content": "center",
-          "align_items": "center"
+              ]
+            },
+            {
+              "type": "container",
+              "settings": {
+                "direction": "column"
+              },
+              "elements": [
+                {
+                  "type": "image",
+                  "settings": {
+                    "url": "https://wordpressrd.thestagingurl.com/wp-content/uploads/2024/05/mission-image.jpg"
+                  }
+                }
+              ]
+            }
+          ]
         },
-        "elements": [
-          {
-            "type": "container",
-            "settings": {
-              "direction": "column"
-            },
-            "elements": [
-              {
-                "type": "image",
-                "settings": {
-                  "url": "https://wordpressrd.thestagingurl.com/wp-content/uploads/2024/05/feature-image.jpg"
-                }
-              }
-            ]
+        {
+          "id": "second_section_below_hero",
+          "type": "container",
+          "settings": {
+            "layout": "flexbox",
+            "content_width": "boxed",
+            "direction": "row",
+            "justify_content": "center",
+            "align_items": "center"
           },
-          {
-            "type": "container",
-            "settings": {
-              "direction": "column"
+          "elements": [
+            {
+              "type": "container",
+              "settings": {
+                "direction": "column"
+              },
+              "elements": [
+                {
+                  "type": "image",
+                  "settings": {
+                    "url": "https://wordpressrd.thestagingurl.com/wp-content/uploads/2024/05/team-image.jpg"
+                  }
+                }
+              ]
             },
-            "elements": [
-              {
-                "type": "heading",
-                "settings": {
-                  "text": "Our Features",
-                  "tag": "h2"
-                }
+            {
+              "type": "container",
+              "settings": {
+                "direction": "column"
               },
-              {
-                "type": "text",
-                "settings": {
-                  "content": "Explore the unique features we offer."
+              "elements": [
+                {
+                  "type": "heading",
+                  "settings": {
+                    "text": "Our Team",
+                    "tag": "h2"
+                  }
+                },
+                {
+                  "type": "text",
+                  "settings": {
+                    "content": "Meet the team behind our success."
+                  }
+                },
+                {
+                  "type": "button",
+                  "settings": {
+                    "text": "Learn More",
+                    "url": "#"
+                  }
                 }
-              },
-              {
-                "type": "button",
-                "settings": {
-                  "text": "Discover More",
-                  "url": "#"
-                }
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "third_section_below_hero",
-        "type": "container",
-        "settings": {
-          "layout": "flexbox",
-          "content_width": "boxed",
-          "direction": "row",
-          "justify_content": "center",
-          "align_items": "center"
-        },
-        "elements": [
-          {
-            "type": "container",
-            "settings": {
-              "direction": "column"
-            },
-            "elements": [
-              {
-                "type": "heading",
-                "settings": {
-                  "text": "Our Services",
-                  "tag": "h2"
-                }
-              },
-              {
-                "type": "text",
-                "settings": {
-                  "content": "Check out the services we offer."
-                }
-              },
-              {
-                "type": "button",
-                "settings": {
-                  "text": "Our Services",
-                  "url": "#"
-                }
-              }
-            ]
-          },
-          {
-            "type": "container",
-            "settings": {
-              "direction": "column"
-            },
-            "elements": [
-              {
-                "type": "image",
-                "settings": {
-                  "url": "https://wordpressrd.thestagingurl.com/wp-content/uploads/2024/05/services-image.jpg"
-                }
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "about_template": [
-      {
-        "id": "hero_section",
-        "type": "container",
-        "settings": {
-          "layout": "flexbox",
-          "content_width": "full_width",
-          "min_height": "50vh",
-          "direction": "column",
-          "justify_content": "center",
-          "align_items": "center",
-          "background": {
-            "image": "https://wordpressrd.thestagingurl.com/wp-content/uploads/2024/05/hero-background.jpg",
-            "position": "center center",
-            "repeat": "no-repeat",
-            "size": "cover"
-          }
-        },
-        "elements": [
-          {
-            "type": "heading",
-            "settings": {
-              "text": "About Our Company",
-              "tag": "h1"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Services",
+      "template": "services_template",
+      "elements": [
+        {
+          "id": "hero_section",
+          "type": "container",
+          "settings": {
+            "layout": "flexbox",
+            "content_width": "full_width",
+            "min_height": "50vh",
+            "direction": "column",
+            "justify_content": "center",
+            "align_items": "center",
+            "background": {
+              "image": "https://wordpressrd.thestagingurl.com/wp-content/uploads/2024/05/hero-background.jpg",
+              "position": "center center",
+              "repeat": "no-repeat",
+              "size": "cover"
             }
           },
-          {
-            "type": "text",
-            "settings": {
-              "content": "Discover who we are and what we do."
+          "elements": [
+            {
+              "type": "heading",
+              "settings": {
+                "text": "Our Services",
+                "tag": "h1"
+              }
+            },
+            {
+              "type": "text",
+              "settings": {
+                "content": "Explore our wide range of services."
+              }
+            },
+            {
+              "type": "button",
+              "settings": {
+                "text": "Learn More",
+                "url": "#"
+              }
+            }
+          ]
+        },
+        {
+          "id": "first_section_below_hero",
+          "type": "container",
+          "settings": {
+            "layout": "flexbox",
+            "content_width": "boxed",
+            "direction": "row",
+            "justify_content": "center",
+            "align_items": "center"
+          },
+          "elements": [
+            {
+              "type": "container",
+              "settings": {
+                "direction": "column"
+              },
+              "elements": [
+                {
+                  "type": "heading",
+                  "settings": {
+                    "text": "Consulting",
+                    "tag": "h2"
+                  }
+                },
+                {
+                  "type": "text",
+                  "settings": {
+                    "content": "Expert advice to help you succeed."
+                  }
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "settings": {
+                "direction": "column"
+              },
+              "elements": [
+                {
+                  "type": "image",
+                  "settings": {
+                    "url": "https://wordpressrd.thestagingurl.com/wp-content/uploads/2024/05/consulting-image.jpg"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "second_section_below_hero",
+          "type": "container",
+          "settings": {
+            "layout": "flexbox",
+            "content_width": "boxed",
+            "direction": "row",
+            "justify_content": "center",
+            "align_items": "center"
+          },
+          "elements": [
+            {
+              "type": "container",
+              "settings": {
+                "direction": "column"
+              },
+              "elements": [
+                {
+                  "type": "image",
+                  "settings": {
+                    "url": "https://wordpressrd.thestagingurl.com/wp-content/uploads/2024/05/development-image.jpg"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "container",
+              "settings": {
+                "direction": "column"
+              },
+              "elements": [
+                {
+                  "type": "heading",
+                  "settings": {
+                    "text": "Development",
+                    "tag": "h2"
+                  }
+                },
+                {
+                  "type": "text",
+                  "settings": {
+                    "content": "Building solutions tailored to your needs."
+                  }
+                },
+                {
+                  "type": "button",
+                  "settings": {
+                    "text": "Get in Touch",
+                    "url": "#"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Contact Us",
+      "template": "contact_template",
+      "elements": [
+        {
+          "id": "hero_section",
+          "type": "container",
+          "settings": {
+            "layout": "flexbox",
+            "content_width": "full_width",
+            "min_height": "50vh",
+            "direction": "column",
+            "justify_content": "center",
+            "align_items": "center",
+            "background": {
+              "image": "https://wordpressrd.thestagingurl.com/wp-content/uploads/2024/05/hero-background.jpg",
+              "position": "center center",
+              "repeat": "no-repeat",
+              "size": "cover"
             }
           },
-          {
-            "type": "button",
-            "settings": {
-              "text": "Learn More",
-              "url": "#"
+          "elements": [
+            {
+              "type": "heading",
+              "settings": {
+                "text": "Contact Us",
+                "tag": "h1"
+              }
+            },
+            {
+              "type": "text",
+              "settings": {
+                "content": "We would love to hear from you."
+              }
             }
-          }
-        ]
-      },
-      {
-        "id": "first_section_below_hero",
-        "type": "container",
-        "settings": {
-          "layout": "flexbox",
-          "content_width": "boxed",
-          "direction": "row",
-          "justify_content": "center",
-          "align_items": "center"
+          ]
         },
-        "elements": [
-          {
-            "type": "container",
-            "settings": {
-              "direction": "column"
-            },
-            "elements": [
-              {
-                "type": "heading",
-                "settings": {
-                  "text": "Our Mission",
-                  "tag": "h2"
-                }
+        {
+          "id": "first_section_below_hero",
+          "type": "container",
+          "settings": {
+            "layout": "flexbox",
+            "content_width": "boxed",
+            "direction": "row",
+            "justify_content": "center",
+            "align_items": "center"
+          },
+          "elements": [
+            {
+              "type": "container",
+              "settings": {
+                "direction": "column"
               },
-              {
-                "type": "text",
-                "settings": {
-                  "content": "To provide the best service to our customers."
+              "elements": [
+                {
+                  "type": "heading",
+                  "settings": {
+                    "text": "Get in Touch",
+                    "tag": "h2"
+                  }
+                },
+                {
+                  "type": "text",
+                  "settings": {
+                    "content": "Fill out the form below to contact us."
+                  }
                 }
-              }
-            ]
-          },
-          {
-            "type": "container",
-            "settings": {
-              "direction": "column"
+              ]
             },
-            "elements": [
-              {
-                "type": "image",
-                "settings": {
-                  "url": "https://wordpressrd.thestagingurl.com/wp-content/uploads/2024/05/mission-image.jpg"
-                }
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "second_section_below_hero",
-        "type": "container",
-        "settings": {
-          "layout": "flexbox",
-          "content_width": "boxed",
-          "direction": "row",
-          "justify_content": "center",
-          "align_items": "center"
-        },
-        "elements": [
-          {
-            "type": "container",
-            "settings": {
-              "direction": "column"
-            },
-            "elements": [
-              {
-                "type": "image",
-                "settings": {
-                  "url": "https://wordpressrd.thestagingurl.com/wp-content/uploads/2024/05/team-image.jpg"
-                }
-              }
-            ]
-          },
-          {
-            "type": "container",
-            "settings": {
-              "direction": "column"
-            },
-            "elements": [
-              {
-                "type": "heading",
-                "settings": {
-                  "text": "Our Team",
-                  "tag": "h2"
-                }
+            {
+              "type": "container",
+              "settings": {
+                "direction": "column"
               },
-              {
-                "type": "text",
-                "settings": {
-                  "content": "Meet the team behind our success."
-                }
-              },
-              {
-                "type": "button",
-                "settings": {
-                  "text": "Learn More",
-                  "url": "#"
-                }
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "services_template": [
-      {
-        "id": "hero_section",
-        "type": "container",
-        "settings": {
-          "layout": "flexbox",
-          "content_width": "full_width",
-          "min_height": "50vh",
-          "direction": "column",
-          "justify_content": "center",
-          "align_items": "center",
-          "background": {
-            "image": "https://wordpressrd.thestagingurl.com/wp-content/uploads/2024/05/hero-background.jpg",
-            "position": "center center",
-            "repeat": "no-repeat",
-            "size": "cover"
-          }
-        },
-        "elements": [
-          {
-            "type": "heading",
-            "settings": {
-              "text": "Our Services",
-              "tag": "h1"
-            }
-          },
-          {
-            "type": "text",
-            "settings": {
-              "content": "We provide a wide range of services to meet your needs."
-            }
-          },
-          {
-            "type": "button",
-            "settings": {
-              "text": "Learn More",
-              "url": "#"
-            }
-          }
-        ]
-      },
-      {
-        "id": "first_section_below_hero",
-        "type": "container",
-        "settings": {
-          "layout": "flexbox",
-          "content_width": "boxed",
-          "direction": "row",
-          "justify_content": "center",
-          "align_items": "center"
-        },
-        "elements": [
-          {
-            "type": "container",
-            "settings": {
-              "direction": "column"
-            },
-            "elements": [
-              {
-                "type": "heading",
-                "settings": {
-                  "text": "Service One",
-                  "tag": "h3"
-                }
-              },
-              {
-                "type": "text",
-                "settings": {
-                  "content": "Description of service one."
-                }
-              }
-            ]
-          },
-          {
-            "type": "container",
-            "settings": {
-              "direction": "column"
-            },
-            "elements": [
-              {
-                "type": "image",
-                "settings": {
-                  "url": "https://wordpressrd.thestagingurl.com/wp-content/uploads/2024/05/service1-image.jpg"
-                }
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "second_section_below_hero",
-        "type": "container",
-        "settings": {
-          "layout": "flexbox",
-          "content_width": "boxed",
-          "direction": "row",
-          "justify_content": "center",
-          "align_items": "center"
-        },
-        "elements": [
-          {
-            "type": "container",
-            "settings": {
-              "direction": "column"
-            },
-            "elements": [
-              {
-                "type": "image",
-                "settings": {
-                  "url": "https://wordpressrd.thestagingurl.com/wp-content/uploads/2024/05/service2-image.jpg"
-                }
-              }
-            ]
-          },
-          {
-            "type": "container",
-            "settings": {
-              "direction": "column"
-            },
-            "elements": [
-              {
-                "type": "heading",
-                "settings": {
-                  "text": "Service Two",
-                  "tag": "h3"
-                }
-              },
-              {
-                "type": "text",
-                "settings": {
-                  "content": "Description of service two."
-                }
-              },
-              {
-                "type": "button",
-                "settings": {
-                  "text": "Learn More",
-                  "url": "#"
-                }
-              }
-            ]
-          }
-        ]
-      }
-    ],
-    "contact_template": [
-      {
-        "id": "hero_section",
-        "type": "container",
-        "settings": {
-          "layout": "flexbox",
-          "content_width": "full_width",
-          "min_height": "50vh",
-          "direction": "column",
-          "justify_content": "center",
-          "align_items": "center",
-          "background": {
-            "image": "https://wordpressrd.thestagingurl.com/wp-content/uploads/2024/05/hero-background.jpg",
-            "position": "center center",
-            "repeat": "no-repeat",
-            "size": "cover"
-          }
-        },
-        "elements": [
-          {
-            "type": "heading",
-            "settings": {
-              "text": "Contact Us",
-              "tag": "h1"
-            }
-          },
-          {
-            "type": "text",
-            "settings": {
-              "content": "We'd love to hear from you!"
-            }
-          },
-          {
-            "type": "button",
-            "settings": {
-              "text": "Get In Touch",
-              "url": "#"
-            }
-          }
-        ]
-      },
-      {
-        "id": "first_section_below_hero",
-        "type": "container",
-        "settings": {
-          "layout": "flexbox",
-          "content_width": "boxed",
-          "direction": "row",
-          "justify_content": "center",
-          "align_items": "center"
-        },
-        "elements": [
-          {
-            "type": "container",
-            "settings": {
-              "direction": "column"
-            },
-            "elements": [
-              {
-                "type": "heading",
-                "settings": {
-                  "text": "Our Location",
-                  "tag": "h2"
-                }
-              },
-              {
-                "type": "text",
-                "settings": {
-                  "content": "123 Main Street, City, Country"
-                }
-              }
-            ]
-          },
-          {
-            "type": "container",
-            "settings": {
-              "direction": "column"
-            },
-            "elements": [
-              {
-                "type": "image",
-                "settings": {
-                  "url": "https://wordpressrd.thestagingurl.com/wp-content/uploads/2024/05/location-map.jpg"
-                }
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "second_section_below_hero",
-        "type": "container",
-        "settings": {
-          "layout": "flexbox",
-          "content_width": "boxed",
-          "direction": "row",
-          "justify_content": "center",
-          "align_items": "center"
-        },
-        "elements": [
-          {
-            "type": "container",
-            "settings": {
-              "direction": "column"
-            },
-            "elements": [
-              {
-                "type": "image",
-                "settings": {
-                  "url": "https://wordpressrd.thestagingurl.com/wp-content/uploads/2024/05/contact-image.jpg"
-                }
-              }
-            ]
-          },
-          {
-            "type": "container",
-            "settings": {
-              "direction": "column"
-            },
-            "elements": [
-              {
-                "type": "heading",
-                "settings": {
-                  "text": "Contact Form",
-                  "tag": "h2"
-                }
-              },
-              {
-                "type": "text",
-                "settings": {
-                  "content": "Fill out the form to get in touch."
-                }
-              },
-              {
-                "type": "form",
-                "settings": {
-                  "fields": [
-                    {
-                      "type": "text",
-                      "label": "Name",
-                      "required": true
-                    },
-                    {
-                      "type": "email",
-                      "label": "Email",
-                      "required": true
-                    },
-                    {
-                      "type": "textarea",
-                      "label": "Message",
-                      "required": true
-                    },
-                    {
-                      "type": "submit",
-                      "text": "Send"
+              "elements": [
+                {
+                  "type": "form",
+                  "settings": {
+                    "fields": [
+                      {
+                        "type": "text",
+                        "settings": {
+                          "label": "Name",
+                          "required": true
+                        }
+                      },
+                      {
+                        "type": "email",
+                        "settings": {
+                          "label": "Email",
+                          "required": true
+                        }
+                      },
+                      {
+                        "type": "textarea",
+                        "settings": {
+                          "label": "Message",
+                          "required": true
+                        }
+                      }
+                    ],
+                    "submit_button": {
+                      "text": "Send Message"
                     }
-                  ]
+                  }
                 }
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
